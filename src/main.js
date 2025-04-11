@@ -25,7 +25,7 @@ generateBtn.addEventListener('click', () => {
   copyMsg.textContent = '';
 });
 
-excuseText.addEventListener('click', () => {
+output.addEventListener('click', () => {
   if (!output.textContent) return;
   
   navigator.clipboard.writeText(output.textContent)
